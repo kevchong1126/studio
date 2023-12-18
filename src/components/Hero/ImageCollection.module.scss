@@ -1,0 +1,49 @@
+@use '../../scss/variables' as *;
+@use '../../scss/breakpoint' as *;
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: $mg-l-4;
+    width: 80%;
+    margin-top: $mg-l-2;
+
+    .imgContainer{
+        width: 100%;
+
+        img{
+            object-fit: cover;
+            position: relative;
+        }
+
+        .image1{
+            width: 220px;
+
+            @include nm-screen{
+                left: 20%;
+            }
+
+            @include custom-screen($breakpoint: 501px){
+                left: 0%;
+            }
+
+        }
+
+        .image2{
+            width: 220px;
+            left: 50%;
+        }
+
+        .image3{
+            width: 380px;
+
+            @include nm-screen{
+                left: 20%;
+            }
+
+            @include custom-screen($breakpoint: 501px){
+                left: 0%;
+            }
+        }
+    }
+}

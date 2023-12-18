@@ -1,0 +1,30 @@
+@use "../../scss/variables" as *;
+@use "../../scss/mixins" as *;
+@use "../../scss/breakpoint" as *;
+
+
+.container{
+    @include container;
+
+    .content{
+        @include content;
+
+    }
+}
+
+.wrapper{
+    margin-inline: auto;
+    margin-top: $mg-l-6;
+    width: 100%;
+    max-width: 1000px;
+    
+    @include nm-screen{
+        margin-top: $mg-l-4;
+    }
+
+    .covers{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

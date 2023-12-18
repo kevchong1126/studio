@@ -1,0 +1,22 @@
+@use "../../scss/variables" as *;
+@use "../../scss/mixins" as *;
+
+.wrapper{
+    @include container;
+    margin-top: $mg-l-7;
+
+    .imgContainer{
+        @include bioContainer;
+        @include bioContainerShort;
+        right: 40%;
+        top: 50%;
+
+        img{
+            @include imageFull;
+        }
+
+        .bg{
+           @include bg;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+@use "../../scss/variables" as *;
+@use "../../scss/mixins" as *;
+@use "../../scss/breakpoint" as *;
+
+.name{
+    position: relative;
+    font-size: $txt-rsp-4;
+    letter-spacing: 5px;
+    line-height: 100%;
+    cursor: default;
+    @include transition($duration: 0.1s);
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+
+    &:hover{
+        color: $txt-main;
+        -webkit-text-stroke: 1px transparent;  
+    }
+
+    .imgContainer{
+        position: absolute;
+        opacity: 0;
+        transform: scale(0.9);
+        width: 350px;
+        height: 450px;
+
+        @include sm-screen{
+            width: 200px;
+            height: 320px;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &.zero{
+        .imgContainer{
+            left: -50%;
+            top: -30%; 
+        }
+    }
+    &.one{
+        .imgContainer{
+            left: 15%;
+            top: -40%; 
+        }
+    }
+    &.two{
+        .imgContainer{
+            left: 50%;
+            top: -40%; 
+        }
+    }
+    &.three{
+        .imgContainer{
+            left: -50%;
+            top: -50%; 
+        }
+    }
+    &.four{
+        .imgContainer{
+            left: 20%;
+            top: -50%; 
+        }
+    }
+    &.five{
+        .imgContainer{
+            left: -50%;
+            top: -50%; 
+        }
+    }
+    &.six{
+        .imgContainer{
+            left: -50%;
+            top: -50%; 
+        }
+    }
+    &.seven{
+        .imgContainer{
+            left: -40%;
+            top: -50%; 
+        }
+    }
+}

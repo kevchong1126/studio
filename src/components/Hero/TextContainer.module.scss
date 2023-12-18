@@ -1,0 +1,22 @@
+@use '../../scss/variables' as *;
+@use '../../scss/breakpoint' as *;
+
+.wrapper{
+    width: 100%;
+
+    @include custom-screen($breakpoint: 900px){
+        font-size: $txt-rsp-5;
+    }
+
+    
+
+    .textMask{
+        overflow-y: hidden;
+        width: max-content;
+        line-height: 120%;
+
+        @include custom-screen($breakpoint: 500px){
+            line-height: 180%;
+        }
+    }
+}

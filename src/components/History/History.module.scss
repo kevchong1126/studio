@@ -1,0 +1,18 @@
+@use '../../scss/variables' as *;
+@use '../../scss/mixins' as *;
+@use '../../scss/breakpoint' as *;
+
+
+.container{
+    @include container;
+    margin-top: $mg-l-4;
+    
+    @include nm-screen{
+        margin-top: $mg-l-2;
+    }
+
+    .content{
+        @include content;
+        position: relative;
+    }
+}

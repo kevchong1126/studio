@@ -1,0 +1,29 @@
+
+.container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -99;
+
+    .imgContainer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+        .image{
+            width: 100%;
+            height: 100%;
+            transform: scale(1);
+            object-fit: cover;
+        }
+    }
+
+    .gifContainer{
+        position: absolute;
+        opacity: 0.03;
+    }
+
+}

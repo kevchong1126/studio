@@ -1,0 +1,17 @@
+@use "../../scss/variables" as *;
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+
+    .indexContainer, .yearContainer{
+        font-size: $txt-sm-4;
+    }
+
+    .arrayContainer{
+        font-size: $txt-rsp-2;
+        line-height: $txt-rsp-2;
+        padding-left: $pd-l-1;
+    }
+}

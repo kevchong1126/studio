@@ -1,0 +1,25 @@
+@use '../scss/variables' as *;
+@use '../scss/mixins' as *;
+
+.container{
+    width: 100%;
+    position: fixed;
+    top: 1.3rem;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: $txt-nm-1;
+    font-family: 'Neuton', serif;
+    z-index: 9999;
+
+    .content{
+        @include content;
+        max-width: 800px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+
+        .title{
+            font-weight: 200;
+        }
+    }
+}

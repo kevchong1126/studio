@@ -1,0 +1,40 @@
+@use "../../scss/variables" as *;
+@use "../../scss/mixins" as *;
+@use "../../scss/breakpoint" as *;
+
+.wrapper{
+    @include container;
+    margin-top: $mg-l-10;
+
+    @include nm-screen{
+        margin-top: $mg-l-8;
+    }
+    .imgContainer1{
+        @include bioContainer;
+        @include bioContainerShort;
+        right: 1rem;
+        top: -20%;
+
+        img{
+            @include imageFull;
+        }
+
+        .bg{
+           @include bg;
+        }
+    }
+    .imgContainer2{
+        @include bioContainer;
+        @include bioContainerLarge;
+        right: 40%;
+        top: 30%;
+
+        img{
+            @include imageFull;
+        }
+
+        .bg{
+           @include bg;
+        }
+    }
+}

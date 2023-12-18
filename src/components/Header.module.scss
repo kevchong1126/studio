@@ -1,0 +1,37 @@
+@use '../scss/variables' as *;
+@use '../scss/breakpoint' as *;
+
+.wrapper{
+    width: 100%;
+    margin-top: $mg-l-7;
+
+    @include nm-screen{
+        margin-top: $mg-l-5;
+    }
+    .top{
+        display: flex;
+        align-items: center;
+
+        .mask{
+            overflow-y: hidden;
+            line-height: 100%;
+
+            .small{
+                font-size: $txt-sm-3;
+                padding-left: $pd-nm-2;
+            }
+            
+        }
+    }
+
+    .bottom{
+        padding-left: 10%;
+
+        .mask{
+            overflow-y: hidden;
+            line-height: 100%;
+        }
+    }
+}
+
+

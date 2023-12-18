@@ -1,0 +1,26 @@
+@use "../../scss/variables" as *;
+@use "../../scss/mixins" as *;
+@use "../../scss/breakpoint" as *;
+
+.container{
+    @include container;
+
+    .content{
+        @include content
+    }
+
+    .trackWrapper{
+        width: 100%;
+        margin-top: $mg-l-6;
+        overflow: hidden;
+        .track{
+            width: 300vw;
+            display: flex;
+
+            @include sm-screen{
+                flex-direction: column;
+                width: 100vw;
+            }
+        }
+    }
+}

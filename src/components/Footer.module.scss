@@ -1,0 +1,29 @@
+@use "../scss/variables" as *;
+@use "../scss/mixins" as *;
+
+
+.container{
+    @include container;
+    margin-top: $mg-l-6;
+
+    .content{
+        @include content;
+
+        .texts{
+            display: flex;
+            flex-direction: column;
+
+            .padding{
+                padding-left: $pd-l-4;
+            }
+        }
+
+        .footer{
+            margin-top: $mg-l-4;
+            padding-bottom: $pd-nm-4;
+            display: flex;
+            justify-content: space-between;
+            font-size: $txt-sm-3;
+        }
+    }
+}

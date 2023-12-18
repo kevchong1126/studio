@@ -1,0 +1,45 @@
+@use '../../scss/variables' as *;
+@use "../../scss/mixins" as *;
+@use "../../scss/breakpoint" as *;
+
+.container{
+    @include container;
+    margin-top: $mg-l-9;
+
+    .content{
+        width: 100%;
+        height: 100%;
+        max-width: 2500px;
+
+        .parallaxText{
+            white-space: nowrap;
+            line-height: $txt-rsp-4;
+            letter-spacing: 3px;
+
+            &:nth-of-type(1){
+                transform: translateX(-5%);
+            }
+            &:nth-of-type(2){
+                transform: translateX(-150%);
+            }
+            &:nth-of-type(3){
+                transform: translateX(-40%);
+            }
+            &:nth-of-type(4){
+                transform: translateX(-130%);
+            }
+            &:nth-of-type(5){
+                transform: translateX(-20%);
+            }
+            &:nth-of-type(6){
+                transform: translateX(-180%);
+
+                @include custom-screen($breakpoint: 800px){
+                    transform: translateX(-140%);
+                }
+            }
+        }
+
+       
+    }
+}

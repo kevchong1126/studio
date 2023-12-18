@@ -1,0 +1,89 @@
+@use "../../scss/variables" as *;
+@use "../../scss/mixins" as *;
+@use "../../scss/breakpoint" as *;
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+    @include sm-screen{
+        height: 80vh;
+    }
+
+    .content{
+        @include content;
+        position: relative;
+    }
+}
+
+.bigContainer{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 480px;
+    z-index: -9;
+
+    @include sm-screen{
+        width: 220px;
+        height: 350px;
+    }
+    .bigImage{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+.smallContainer{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    z-index: -1;
+
+    @include sm-screen{
+        width: 160px;
+    }
+
+    .smallImage{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+.textContainer{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    
+    .top{
+        display: flex;
+        align-items: flex-start;
+        
+        .big{
+
+        }
+    
+        .small{
+            font-size: $txt-sm-4;
+            padding-left: $pd-nm-4;
+        }
+    }
+
+    .bottom{
+        line-height: 6vw;
+        .big{
+            padding-left: $pd-l-4;
+        }
+    }
+
+}
