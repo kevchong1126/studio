@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/studio/static/css/main.be1c1f4a.css",
+    "main.js": "/studio/static/js/main.04d0da2e.js",
+    "static/media/bggif.gif": "/studio/static/media/bggif.cde5b1453f4817799250.gif",
+    "static/media/cover6.jpg": "/studio/static/media/cover6.2472f5abeb88036a44e8.jpg",
+    "static/media/p1small.png": "/studio/static/media/p1small.6fd2d1bd5ad19f13fc16.png",
+    "static/media/cover2.jpg": "/studio/static/media/cover2.d32ddf64e8682e2c75ad.jpg",
+    "static/media/bg.png": "/studio/static/media/bg.803244777756c1861352.png",
+    "static/media/bio1.png": "/studio/static/media/bio1.6f9ee0ce046417cc8267.png",
+    "static/media/p3.jpg": "/studio/static/media/p3.af34d2624d4c0600feb9.jpg",
+    "static/media/bio2.png": "/studio/static/media/bio2.3c0bfb7067b6f4212656.png",
+    "static/media/p1.png": "/studio/static/media/p1.7a993585d430efbe8969.png",
+    "static/media/bio5.jpg": "/studio/static/media/bio5.0c580f9c906d4c07771d.jpg",
+    "static/media/p3small.jpg": "/studio/static/media/p3small.d30e50659205e745f533.jpg",
+    "static/media/cover7.jpg": "/studio/static/media/cover7.ba2402de949e0ff011e8.jpg",
+    "static/media/cover3.jpg": "/studio/static/media/cover3.37298fcde4aad8d88dab.jpg",
+    "static/media/bio3.jpg": "/studio/static/media/bio3.2b388e225c3e1b77b25d.jpg",
+    "static/media/p2small.jpg": "/studio/static/media/p2small.7a5908eaeb22e8b08a71.jpg",
+    "static/media/cover5.jpg": "/studio/static/media/cover5.21b2ab3b041ffd1794d0.jpg",
+    "static/media/cover8.jpg": "/studio/static/media/cover8.21b2ab3b041ffd1794d0.jpg",
+    "static/media/hero4.jpg": "/studio/static/media/hero4.96eacd6d2f95ed1e86ca.jpg",
+    "static/media/hero1.jpg": "/studio/static/media/hero1.f4af2c45216ef3156fec.jpg",
+    "static/media/cover1.jpg": "/studio/static/media/cover1.2aa0b503d3e25658f0e9.jpg",
+    "static/media/bio6.jpg": "/studio/static/media/bio6.fc5faa247e3c80f9f372.jpg",
+    "static/media/hero3.jpg": "/studio/static/media/hero3.201a97d46c0b8381b9aa.jpg",
+    "static/media/p2.jpg": "/studio/static/media/p2.00f70df0d5af84168027.jpg",
+    "static/media/hero2.jpg": "/studio/static/media/hero2.97c233923c8b70429c7f.jpg",
+    "static/media/cover4.jpg": "/studio/static/media/cover4.6ac1e68e8931f1ed2808.jpg",
+    "static/media/bio4.jpg": "/studio/static/media/bio4.ec7680ab9dd4eb0bf86c.jpg",
+    "index.html": "/studio/index.html",
+    "main.be1c1f4a.css.map": "/studio/static/css/main.be1c1f4a.css.map",
+    "main.04d0da2e.js.map": "/studio/static/js/main.04d0da2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be1c1f4a.css",
+    "static/js/main.04d0da2e.js"
+  ]
+}
