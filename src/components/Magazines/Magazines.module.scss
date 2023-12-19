@@ -10,9 +10,10 @@
     }
 
     .trackWrapper{
+        position: relative;
         width: 100%;
         margin-top: $mg-l-6;
-        overflow: hidden;
+
         .track{
             width: 300vw;
             display: flex;
